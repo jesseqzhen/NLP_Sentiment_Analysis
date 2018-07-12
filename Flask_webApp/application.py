@@ -135,11 +135,11 @@ def submit():
 
 @app.route('/about')
 def about():
-    return redirect("https://github.com/jasonqzhen/NLP_Sentiment_Analysis", code=302)
+    return redirect("https://github.com/jesseqzhen/NLP_Sentiment_Analysis", code=302)
 
 @app.route('/author')
 def author():
-    return redirect("https://www.linkedin.com/in/jasonqzhen/", code=302)
+    return redirect("https://www.linkedin.com/in/jesse-qz/", code=302)
 
 if __name__ == "__main__":
     app.run()

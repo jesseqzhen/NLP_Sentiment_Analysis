@@ -2,7 +2,7 @@
 
 ###### |<a href='#1'> Introduction </a> | <a href='#2'> Data </a> | <a href='#3'> Preprocessing </a> |<a href='#4'> Feature Extraction </a>| <a href='#5'> Model </a> | <a href='#6'> Feature Selection </a> |<a href='#7'> Web App </a>| <a href='#8'> Discussion </a> |
 
-###### |<a href='https://jesseqzhen.github.io/NLP_Sentiment_Analysis/'> Python Code HTML Version </a>| <a href='http://jesseqzhen.pythonanywhere.com/'> Web Application Website </a>|
+###### |<a href='https://jesseqzhen.github.io/NLP_Sentiment_Analysis/'> Python Code HTML Version </a>| <a href='http://jesseqz.pythonanywhere.com/'> Web Application Website </a>|
 
 <a id='1'></a>
 ## Introduction
@@ -117,7 +117,7 @@ It clearly shows that LinearSVC has the highest accuracy consistently, with Logi
 To demonstrate this project, we wrote a **flask** (a lightweight WSGI web application framework [[link]](http://flask.pocoo.org/)) 
 web application. You can enter some review text and let the app analyze the sentiment of your entry. Have fun!
 
-[NLP Sentiment Analysis App](http://jesseqzhen.pythonanywhere.com/)
+[NLP Sentiment Analysis App](http://jesseqz.pythonanywhere.com/)
 
 
 
