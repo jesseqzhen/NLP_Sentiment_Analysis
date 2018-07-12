@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<br />
+<form action="/form/" method="post">
+&nbsp;&nbsp;Review Text:
+<br>
+ {{form.review_text}} <br />
+<br />
+    {{form.go}}<br />
+</form>
+{% endblock %}

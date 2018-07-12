@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>{{ config['SITE_TITLE'] }}</title>
+
+    <link rel="stylesheet" href="/static/main.css" type="text/css"/>
+
+    <script type=text/javascript src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <!-- add for highlight -->
+    <script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.4.3/jquery.mark.min.js"></script>
+    {% block head %}{% endblock %}
+  </head>
+
+  <body>
+    {# Navigation #}
+    <div id="navigation">
+      <ul>
+        <li><a href="{{url_for('.index') }}">Home</a></li>
+        <li><a href="{{url_for('.about') }}">About</a></li>
+        <li><a href="{{url_for('.author') }}">Author</a></li>
+      </ul>
+    </div>
+
+    <div id="wrapper">
+      {# Main Content #}
+      <div id="content">
+        {% block body %}{% endblock %}
+      </div>
+    </div>
+    {% block bottom %}{% endblock %}
+
+    {% block footer %}
+    {% include "footer.html" %}
+    {% endblock %}
+
+    {% block afterscript %}{% endblock %}
+  </body>
+</html>

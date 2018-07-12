@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<br/>
+<h2>Sentiment Analysis</h2>
+<br>
+By typing in a review text and clicking "submit", this app will determine if the review is positive or negative.<br />
+<br>
+<br>
+
+<form action="/" method="post">
+&nbsp;&nbsp;Here, you can type in a review text:
+<br>
+<br>
+ {{form.review_text}} <br />
+<br />
+    {{form.go}}<br />
+</form>
+
+{% endblock %}
